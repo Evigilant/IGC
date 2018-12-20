@@ -1,0 +1,256 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    -webkit-filter: drop-shadow(3px 3px 3px #3e3e3e);
+    filter: drop-shadow(3px 3px 3px #3e3e3e);
+}
+
+
+
+.wrap {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #738bd7;
+    background-image: url("/igc/images/igctb.png");
+    background-repeat: no-repeat;
+    background-size: contain, auto;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.main {
+    flex: 1;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+header {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 32px;
+    margin: 0px;
+    padding-top: 3px;
+    padding-left: 10px;
+    background-color: #171717;
+    color: #fff;
+    border-bottom: 2px solid #738bd7;
+    height: 70px;
+    line-height: 70px;
+    vertical-align: middle;
+}
+
+
+
+footer {
+    margin: auto;
+    font-size: 14px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: lighter;
+    margin: 0px;
+    background-color: #171717;
+    color: #fff;
+    border-top: 4px solid #738bd7;
+    text-align: center;
+    height: 40px;
+    letter-spacing: 2px;
+    vertical-align: middle;
+}
+
+
+
+.sidebar {
+    flex: 0 0 300px;
+    padding: 10px;
+    -webkit-filter: drop-shadow(3px 3px 3px #3e3e3e);
+    filter: drop-shadow(3px 3px 3px #3e3e3e);
+}
+
+
+
+.content {
+    padding-left: 10px;
+    flex: 1;
+    -webkit-filter: drop-shadow(3px 3px 3px #3e3e3e);
+    filter: drop-shadow(3px 3px 3px #3e3e3e);
+}
+
+
+
+h3 {
+    padding: 3px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+
+h5 {
+    padding: 3px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+
+a.img {
+    text-decoration: none;
+}
+
+
+
+i {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    color: #fff;
+}
+
+
+
+img {
+    vertical-align: middle;
+}
+
+
+
+span:after {
+    margin-left: -10px;
+    content: 'InfinityGamerCorps'
+}
+
+
+
+footer:after {
+    font-family: 'Orbitron', sans-serif;
+    vertical-align: middle;
+    content: '©Copyright 2017 - InfinityGamerCorps - All Rights Reserved';
+}
+
+
+
+a:link {
+    text-decoration: underline;
+    color: #000;
+}
+
+
+
+a:visited {
+    text-decoration: underline;
+    color: #000;
+}
+
+
+
+a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+
+
+a:active {
+    text-decoration: underline;
+    color: #000;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+
+
+    footer:after {
+        font-family: 'Orbitron', sans-serif;
+        vertical-align: middle;
+        content: '© 2017 IGC'
+    }
+
+
+
+    span:after {
+        margin-left: -10px;
+        content: 'IGC';
+        font-size: 1.15em;
+    }
+
+
+
+    .main {
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+
+
+    .sidebar {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        height: 100%;
+    }
+
+
+
+    .content {
+        flex: 0;
+        text-align: center;
+    }
+
+
+
+        .content iframe {
+            left: 0;
+            max-width: 280px;
+        }
+
+
+
+    .sidebar iframe {
+        left: 0;
+        width: 100%;
+    }
+
+
+
+    h3 {
+        text-align: center;
+        font-size: 3.0vh;
+    }
+
+
+
+    img {
+        vertical-align: middle;
+    }
+
+
+
+    a.img {
+        text-decoration: none;
+    }
+
+
+
+    i {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-right: 5px;
+        color: #fff;
+    }
+}
